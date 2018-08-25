@@ -1,6 +1,30 @@
 # Site navigation links
 
-- title:
+ - title: Geek Diva Blog
+   url: http://geekdiva.blog  
+   
+- title: About Me
+  url: /about_me
+  excerpt: "Everything about me: Social networks, other interests, etc."
+  image: about_me.jpg
+  
+- title: 
   url:
   excerpt:
   image:
+  
+- title: 
+  url:
+  excerpt:
+  image:
+  
+- title: 
+  url:
+  excerpt:
+  image:
+  
+- title: 
+  url:
+  excerpt:
+  image:
+  

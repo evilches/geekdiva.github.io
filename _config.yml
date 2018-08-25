@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: "Geek Diva's Blog"
+description: "Technology, coaching, beauty, everyday life... and everything in between."
+logo: logo.jpg
+teaser: teaser.jpg
 locale: en
-url:
+url: http://geekdiva.blog
 feed:
   path: atom.xml
 
@@ -26,19 +26,37 @@ gems:
 
 # Site owner
 owner:
-  name:
+  name: Erika Vilches
   email:
-  twitter:
+  twitter: evilches
   google:
     ad-client:
     ad-slot:
-  bio:
+  bio: "@Microsoft | BS in Computer Science and Engineering | MSc in Artificial Intelligence | PhD Candidate | Happily married"
   avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+  disqus-shortname: erikavilches
 
+ # Octopress Configuration
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
 
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft 
+  
 include:
   - .htaccess
+  -  ["_pages"]
 exclude:
   - "*.less"
   - "*.sublime-project"

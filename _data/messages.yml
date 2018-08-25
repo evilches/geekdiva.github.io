@@ -27,6 +27,18 @@ locales:
   de_DE:
     <<: *DEFAULT_DE     # use German translation for de_DE
 
+  # Spanish translation
+  # -------------------
+  es: &DEFAULT_ES
+    <<: *DEFAULT_EN     # load English values as default
+    overview: "Resumen"
+    toc: "Índice"
+    written_by: "Escrito por"
+    updated: "Actualizado"
+    share: "Compartir"
+  es_ES:
+    <<: *DEFAULT_ES     # use Spanish translation for es_ES
+
   # French translation (TODO)
   # -------------------
   fr: &DEFAULT_FR
