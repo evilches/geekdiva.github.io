@@ -34,7 +34,7 @@ owner:
     ad-slot:
   bio: "@Microsoft | BS in Computer Science and Engineering | MSc in Artificial Intelligence | PhD Candidate | Happily married"
   avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname: erikavilches
+  disqus-shortname: geekdiva-blog
 
  # Octopress Configuration
 # Default extension for new posts and pages
